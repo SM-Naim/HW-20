@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>HW-20(Jq ui)</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">3rd page</h1>
+        <div class="col-lg-6 mt-2">
+          <!-- toggle class -->
+          <h1>Toggle class</h1>
+          <div class="toggler-class">
+            <div id="effect-toggle-class" class="newClass ui-corner-all">
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+            </div>
+          </div>
+          <button id="button-toggle-class" class="ui-state-default ui-corner-all">Run Effect</button>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <!-- position -->
+          <h1>Different position</h1>
+          <div id="parent">
+            <p>
+            This is the position parent element.
+            </p>
+          </div>
+           
+          <div class="positionable" id="positionable1">
+            <p>
+            to position
+            </p>
+          </div>
+           
+          <div class="positionable" id="positionable2">
+            <p>
+            to position 2
+            </p>
+          </div>
+           
+          <div style="padding: 20px; margin-top: 75px;">
+            position...
+            <div style="padding-bottom: 20px;">
+              <b>my:</b>
+              <select id="my_horizontal">
+                <option value="left">left</option>
+                <option value="center">center</option>
+                <option value="right">right</option>
+              </select>
+              <select id="my_vertical">
+                <option value="top">top</option>
+                <option value="center">center</option>
+                <option value="bottom">bottom</option>
+              </select>
+            </div>
+            <div style="padding-bottom: 20px;">
+              <b>at:</b>
+              <select id="at_horizontal">
+                <option value="left">left</option>
+                <option value="center">center</option>
+                <option value="right">right</option>
+              </select>
+              <select id="at_vertical">
+                <option value="top">top</option>
+                <option value="center">center</option>
+                <option value="bottom">bottom</option>
+              </select>
+            </div>
+            <div style="padding-bottom: 20px;">
+              <b>collision:</b>
+              <select id="collision_horizontal">
+                <option value="flip">flip</option>
+                <option value="fit">fit</option>
+                <option value="flipfit">flipfit</option>
+                <option value="none">none</option>
+              </select>
+              <select id="collision_vertical">
+                <option value="flip">flip</option>
+                <option value="fit">fit</option>
+                <option value="flipfit">flipfit</option>
+                <option value="none">none</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <!-- widget factory -->
+          <h1>widget factory</h1>
+          <div>
+            <div id="my-widget1">color me</div>
+            <div id="my-widget2">color me</div>
+            <div id="my-widget3">color me</div>
+            <button id="disable">Toggle disabled option</button>
+            <button id="green">Go green</button>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <!-- spinner -->
+          <h1>Spinner</h1>
+          <p>
+            <label for="spinner">Amount to donate:</label>
+            <input id="spinner" name="spinner" value="5">
+          </p>   
+          <p>
+            <label for="currency">Currency to donate</label>
+            <select id="currency" name="currency">
+              <option value="en-US">US $</option>
+              <option value="de-DE">EUR &#x20AC;</option>
+              <option value="ja-JP">YEN &#xA5;</option>
+            </select>
+          </p>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <!-- easing -->
+          <h1>Easing</h1>
+          <div id="graphs"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+    <!-- next page -->
+    <div class="container">
+      <div class="row">
+        <div class="btn-toolbar justify-content-center mt-3" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-outline-secondary"><a class="btn" href="../index.html">1</a></button>
+            <button type="button" class="btn btn-outline-secondary"><a class="btn" href="../pages/secound-page.html">2</a></button>
+            <button type="button" class="btn btn-outline-secondary"><a class="btn" href="../pages/third-page.html">3</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+    <!-- JS link -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>          

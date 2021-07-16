@@ -1,0 +1,163 @@
+/*shortable*/
+#sortable {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0; 
+  width: 60%; 
+}
+#sortable li { 
+  margin: 0 3px 9px 4px;
+  padding-left: 1.5em;
+  font-size: 17px;
+  height: 30px; 
+}
+#sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+  margin-top: 5px;
+}
+/*shortable*/
+/*draggable*/
+#draggable { 
+  width: 100px; 
+  height: 100px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px 10px 10px 0; 
+}
+#droppable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px;
+}
+/*draggable*/
+/*color animation*/
+.toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button-color { 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect-color { 
+  width: 275px; 
+  height: 170px;
+  padding: 0.4em; 
+  position: relative; 
+  background: #fff; 
+}
+#effect-color h3 { 
+  margin: 0; 
+  padding: 0.4em; 
+  text-align: center; 
+}
+/*color animation*/
+/*effect show*/
+.toggler-effect { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button-show { 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect-show { 
+  width: 275px; 
+  height: 170px; 
+  padding: 0.4em; 
+  position: relative; 
+}
+#effect-show h3 { 
+  margin: 0; 
+  padding: 0.4em; 
+  text-align: center; 
+}
+.ui-effects-transfer { 
+  border: 2px dotted gray; 
+}
+/*effect show*/
+/*toggler class*/
+.toggler-class { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button-toggle-class { 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect-toggle-class {
+  position: relative;  
+  width: 350px;  
+  padding: 1em; 
+  letter-spacing: 0; 
+  font-size: 1.2em; 
+  border: 1px solid #000; 
+  background: #eee; 
+  color: #333; 
+}
+.newClass { 
+  text-indent: 40px; 
+  letter-spacing: .4em; 
+  width: 410px; 
+  height: 145px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.6em; 
+}
+/*toggler class*/
+/*position*/
+#parent {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #777;
+  background-color: #fbca93;
+  text-align: center;
+}
+.positionable {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  background-color: #bcd5e6;
+  text-align: center;
+}
+#positionable1 {
+  width: 75px;
+  height: 75px;
+}
+#positionable2 {
+  width: 120px;
+  height: 40px;
+}
+select, input {
+  margin-left: 15px;
+}
+/*position*/
+/*widget factory*/
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+/*widget factory*/
+/*easing*/
+.graph {
+    float: left;
+    margin-left: 10px;
+}
+/*easing*/
